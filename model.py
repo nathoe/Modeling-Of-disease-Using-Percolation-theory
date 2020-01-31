@@ -3,12 +3,12 @@ import  numpy  as np
 import itertools
 from collections import Counter
 import matplotlib.pyplot as plt
-N = 130 # population is N*N
+N = 100 # population is N*N
 x = 0.4# proportion of immunised
 t =0.3 #t is the probability tha the person transmit the disease after getting infected
 n_last = -1 
 n = 0
-duration =150
+duration =700
 P = np.zeros([N+1,N+1],float)
 size = np.zeros(N+1)
 minp = np.zeros(N+1,dtype=int )
